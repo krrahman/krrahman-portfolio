@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Krrahman | WordPress Developer & Digital Marketer — Dhaka</title>
+  <meta name="description" content="Krrahman is a WordPress Developer and Digital Marketer based in Dhaka with 7 years of experience building eCommerce, business, portfolio, listing, and landing page websites." />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <!-- Logo — using your real BDTechZen logo file -->
+<!-- Logo — updated image path -->
+<a href="#home" class="logo" aria-label="Krrahman Home">
+  <img
+    src="image/Site Transparent Logo - bdtechzen.png"
+    alt="BDTechZen Logo"
+    class="logo-img"
+  />
+</a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a href="#contact" class="btn btn-primary nav-cta">Hire Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    <div class="container hero-inner">
+
+      <div class="hero-content" data-reveal>
+        <div class="hero-badge">
+          <i class="fas fa-map-marker-alt"></i> Based in Dhaka, Bangladesh
+        </div>
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">KRRAHMAN</h1>
+        <h2 class="hero-title">
+          WordPress Developer
+          <span class="typed-wrapper">
+            <span class="typed" id="typed-text"></span><span class="cursor">|</span>
+          </span>
+        </h2>
+        <p class="hero-desc">
+          I design &amp; develop fast, beautiful, custom WordPress websites — eCommerce, business,
+          portfolio, listing platforms &amp; high-converting landing pages. Also a digital marketer
+          helping brands grow online.
+        </p>
+        <div class="hero-btns">
+          <a href="#portfolio" class="btn btn-primary"><i class="fas fa-eye"></i> View My Work</a>
+          <a href="#contact" class="btn btn-outline"><i class="fas fa-envelope"></i> Get In Touch</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num" data-count="70">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Projects Done</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="7">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="10">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Projects / Year</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-reveal-delay>
+        <div class="hero-photo-wrap">
+          <!-- Your real photo from the image folder -->
+          <img
+            src="image/krrahman-about.jpg"
+            alt="Krrahman – WordPress Developer & Digital Marketer, Dhaka"
+            class="hero-photo"
+            id="dev-photo"
+          />
+          <div class="photo-badge photo-badge-wp">
+            <i class="fab fa-wordpress"></i> WordPress
+          </div>
+          <div class="photo-badge photo-badge-mkt">
+            <i class="fas fa-chart-line"></i> Digital Marketing
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <a href="#about" class="scroll-down" aria-label="Scroll down">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <p class="section-tag">About Me</p>
+        <h2 class="section-title">Web Developer &amp; Digital Marketer<br/>from Dhaka</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-left" data-reveal>
+          <div class="about-img-wrap">
+    <img
+      src="image/tech-guy.png"
+      alt="Krrahman – WordPress Developer"
+      class="about-img"
+    />
+    <div class="about-img-badge">
+      <span>7</span>
+      <small>Years<br/>Exp.</small>
+    </div>
+  </div>
+</div>
+
+        <div class="about-right" data-reveal>
+          <h3>Hi, I'm <span class="highlight">Krrahman</span> 👋</h3>
+          <p>
+            I'm a passionate <strong>WordPress Developer &amp; Digital Marketer</strong> based in
+            <strong>Dhaka, Bangladesh</strong>. With <strong>7 years of hands-on experience</strong>,
+            I've worked with multiple web development agencies in Dhaka and completed
+            <strong>10+ successful projects every year</strong>.
+          </p>
+          <p>
+            I build custom websites from scratch — not just pretty pages, but fast, SEO-ready,
+            conversion-focused digital products. Beyond development, I also help businesses
+            grow through smart digital marketing strategies.
+          </p>
+
+          <div class="tech-stack">
+            <div class="tech-item"><i class="fab fa-html5"></i><span>HTML5</span></div>
+            <div class="tech-item"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+            <div class="tech-item"><i class="fab fa-js-square"></i><span>JavaScript</span></div>
+            <div class="tech-item"><i class="fab fa-wordpress"></i><span>WordPress</span></div>
+            <div class="tech-item"><i class="fas fa-paint-brush"></i><span>Theme Design</span></div>
+            <div class="tech-item"><i class="fas fa-puzzle-piece"></i><span>Plugins</span></div>
+            <div class="tech-item"><i class="fas fa-shopping-cart"></i><span>WooCommerce</span></div>
+            <div class="tech-item"><i class="fas fa-bullhorn"></i><span>Digital Marketing</span></div>
+          </div>
+
+          <div class="about-actions">
+            <a href="#contact" class="btn btn-primary"><i class="fas fa-rocket"></i> Start a Project</a>
+            <a href="#" class="btn btn-outline" download><i class="fas fa-download"></i> Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <p class="section-tag">What I Do</p>
+        <h2 class="section-title">Services I Offer</h2>
+        <p class="section-sub">Full-stack WordPress solutions from design to deployment</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card" data-reveal>
+          <div class="service-icon"><i class="fas fa-shopping-bag"></i></div>
+          <h3>eCommerce Websites</h3>
+          <p>Custom WooCommerce stores built for conversions — product pages, checkout flows, payment gateways, and inventory management.</p>
+          <span class="service-num">01</span>
+        </div>
+
+        <div class="service-card" data-reveal>
+          <div class="service-icon"><i class="fas fa-briefcase"></i></div>
+          <h3>Business Websites</h3>
+          <p>Professional business sites that establish credibility, generate leads, and represent your brand powerfully online.</p>
+          <span class="service-num">02</span>
+        </div>
+
+        <div class="service-card" data-reveal>
+          <div class="service-icon"><i class="fas fa-images"></i></div>
+          <h3>Portfolio Websites</h3>
+          <p>Stunning portfolios for creatives and professionals that showcase work beautifully and attract the right clients.</p>
+          <span class="service-num">03</span>
+        </div>
+
+        <div class="service-card" data-reveal>
+          <div class="service-icon"><i class="fas fa-list-alt"></i></div>
+          <h3>Listing / Directory</h3>
+          <p>Powerful directory platforms — real estate listings, job boards, local business directories with advanced filters.</p>
+          <span class="service-num">04</span>
+        </div>
+
+        <div class="service-card" data-reveal>
+          <div class="service-icon"><i class="fas fa-bullseye"></i></div>
+          <h3>Landing Pages</h3>
+          <p>High-converting landing pages designed to capture leads, promote products, and drive measurable campaign results.</p>
+          <span class="service-num">05</span>
+        </div>
+
+        <div class="service-card" data-reveal>
+          <div class="service-icon"><i class="fas fa-bullhorn"></i></div>
+          <h3>Digital Marketing</h3>
+          <p>SEO, social media marketing, Google Ads, and content strategy to grow your online presence and reach your audience.</p>
+          <span class="service-num">06</span>
+        </div>
+
+        <div class="service-card" data-reveal>
+          <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+          <h3>Theme Customization</h3>
+          <p>Deep WordPress theme customization — modifying layouts, styling, and functionality to match your exact brand vision.</p>
+          <span class="service-num">07</span>
+        </div>
+
+        <div class="service-card" data-reveal>
+          <div class="service-icon"><i class="fas fa-tools"></i></div>
+          <h3>Plugin Setup & Custom Dev</h3>
+          <p>Expert plugin installation, configuration, and custom plugin development to add exactly the features you need.</p>
+          <span class="service-num">08</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section class="portfolio section" id="portfolio">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <p class="section-tag">My Work</p>
+        <h2 class="section-title">Recent Projects</h2>
+        <p class="section-sub">A selection of projects — 10+ delivered every year</p>
+      </div>
+
+      <div class="filter-tabs" data-reveal>
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ecommerce">eCommerce</button>
+        <button class="filter-btn" data-filter="business">Business</button>
+        <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+        <button class="filter-btn" data-filter="listing">Listing</button>
+        <button class="filter-btn" data-filter="landing">Landing Page</button>
+      </div>
+
+      <div class="portfolio-grid" id="portfolio-grid">
+
+        <div class="portfolio-item" data-category="ecommerce">
+          <div class="portfolio-img" style="background-image:url('https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=600&h=360&fit=crop&auto=format&q=80')">
+            <div class="portfolio-overlay"><a href="#" class="port-btn"><i class="fas fa-eye"></i></a></div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">eCommerce</span>
+            <h3>Fashion Boutique Store</h3>
+            <p>WooCommerce store with custom filters, Stripe &amp; bKash payment integration.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="business">
+          <div class="portfolio-img" style="background-image:url('https://images.unsplash.com/photo-1497366754035-f200586c6db4?w=600&h=360&fit=crop&auto=format&q=80')">
+            <div class="portfolio-overlay"><a href="#" class="port-btn"><i class="fas fa-eye"></i></a></div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Business</span>
+            <h3>Law Firm Website</h3>
+            <p>Professional site with lead capture and appointment booking system.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="portfolio">
+          <div class="portfolio-img" style="background-image:url('https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&h=360&fit=crop&auto=format&q=80')">
+            <div class="portfolio-overlay"><a href="#" class="port-btn"><i class="fas fa-eye"></i></a></div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Portfolio</span>
+            <h3>Photographer Portfolio</h3>
+            <p>Gallery-focused portfolio with lightbox and client proofing features.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="listing">
+          <div class="portfolio-img" style="background-image:url('https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=600&h=360&fit=crop&auto=format&q=80')">
+            <div class="portfolio-overlay"><a href="#" class="port-btn"><i class="fas fa-eye"></i></a></div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Listing</span>
+            <h3>Real Estate Directory</h3>
+            <p>Property listing platform with advanced search, map view, and agent profiles.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="landing">
+          <div class="portfolio-img" style="background-image:url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=360&fit=crop&auto=format&q=80')">
+            <div class="portfolio-overlay"><a href="#" class="port-btn"><i class="fas fa-eye"></i></a></div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Landing Page</span>
+            <h3>SaaS Product Launch</h3>
+            <p>High-converting landing page with animated sections and lead capture form.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="ecommerce">
+          <div class="portfolio-img" style="background-image:url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=360&fit=crop&auto=format&q=80')">
+            <div class="portfolio-overlay"><a href="#" class="port-btn"><i class="fas fa-eye"></i></a></div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">eCommerce</span>
+            <h3>Food Delivery Store</h3>
+            <p>Restaurant shop with menu builder and order management system.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="business">
+          <div class="portfolio-img" style="background-image:url('https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&h=360&fit=crop&auto=format&q=80')">
+            <div class="portfolio-overlay"><a href="#" class="port-btn"><i class="fas fa-eye"></i></a></div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Business</span>
+            <h3>Medical Clinic Site</h3>
+            <p>Healthcare website with doctor profiles and online appointment booking.</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="landing">
+          <!-- Real digital marketing agency image -->
+          <div class="portfolio-img" style="background-image:url('https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=360&fit=crop&auto=format&q=80')">
+            <div class="portfolio-overlay"><a href="#" class="port-btn"><i class="fas fa-eye"></i></a></div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Landing Page</span>
+            <h3>Digital Marketing Agency</h3>
+            <p>Agency landing page with animated counters, team section, and inquiry form.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VIDEO SECTION ===== -->
+  <section class="video-section section" id="video">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <p class="section-tag">Watch &amp; Learn</p>
+        <h2 class="section-title">See How I Work</h2>
+        <p class="section-sub">How to design a complete functional eCommerce website with WordPress</p>
+      </div>
+
+      <!-- Single centered video card -->
+      <div class="video-single" data-reveal>
+        <div class="video-thumb-wrap video-main-thumb">
+          <!-- "How to Build a Full eCommerce Website with WordPress & WooCommerce" 
+               by Darrel Wilson — maxresdefault with hqdefault fallback -->
+          <img
+            src="https://img.youtube.com/vi/eAFcysmQKlQ/hqdefault.jpg"
+            alt="How to Build a Full eCommerce Website – WordPress & WooCommerce"
+            class="video-thumb"
+          />
+          <a
+            href="https://www.youtube.com/watch?v=eAFcysmQKlQ"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="play-btn play-btn-lg"
+            aria-label="Watch full eCommerce website build tutorial on YouTube"
+          >
+            <i class="fas fa-play"></i>
+          </a>
+          <span class="video-duration">1:52:30</span>
+        </div>
+        <div class="video-caption">
+          <span class="video-tag"><i class="fab fa-youtube"></i> YouTube</span>
+          <h3>How to Build a Complete Functional eCommerce Website</h3>
+          <p>
+            A full walkthrough of designing and building a professional WooCommerce store from scratch —
+            products, payment gateways, shipping, and a polished storefront. Exactly what I do for my clients.
+          </p>
+          <a
+            href="https://www.youtube.com/watch?v=eAFcysmQKlQ"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary btn-sm"
+          >
+            <i class="fab fa-youtube"></i> Watch on YouTube
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials section">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <p class="section-tag">Client Reviews</p>
+        <h2 class="section-title">What My Clients Say</h2>
+      </div>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card" data-reveal>
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"Krrahman built our eCommerce store from scratch and it exceeded every expectation. Sales doubled within the first month!"</p>
+          <div class="client-info">
+            <img src="https://i.pravatar.cc/100?img=47" alt="Sarah M." class="client-photo" />
+            <div><strong>Sarah M.</strong><span>Fashion Store Owner</span></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" data-reveal>
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"Professional, fast, and incredibly talented. Our new business website gets us qualified leads every single day."</p>
+          <div class="client-info">
+            <img src="https://i.pravatar.cc/100?img=12" alt="James T." class="client-photo" />
+            <div><strong>James T.</strong><span>Business Owner</span></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" data-reveal>
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"The listing website he built for us is amazing. Easy to manage and our users absolutely love the search experience."</p>
+          <div class="client-info">
+            <img src="https://i.pravatar.cc/100?img=44" alt="Aisha K." class="client-photo" />
+            <div><strong>Aisha K.</strong><span>Real Estate Platform</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <p class="section-tag">Get In Touch</p>
+        <h2 class="section-title">Let's Build Something Great</h2>
+        <p class="section-sub">I'm currently available for freelance projects. Let's talk!</p>
+      </div>
+      <div class="contact-grid">
+
+        <div class="contact-info" data-reveal>
+          <h3>Ready to start your project?</h3>
+          <p>Drop me a message and I'll get back to you within 24 hours. Based in Dhaka — available for remote work worldwide.</p>
+
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <span class="ci-label">Phone</span>
+                <a href="tel:+8801623604635">+880 1623-604635</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <span class="ci-label">Email</span>
+                <a href="mailto:khalil5172@gmail.com">khalil5172@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <span class="ci-label">Address</span>
+                <span>38/1, Baunia, Turag, Dhaka</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-rss"></i></div>
+              <div>
+                <span class="ci-label">Blog</span>
+                <a href="https://bdttechzen.com" target="_blank" rel="noopener noreferrer">bdttechzen.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/khalil5172" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/khalil5172" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/khalil5172" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter / X"><i class="fab fa-twitter"></i></a>
+            <a href="https://bdttechzen.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Blog – BDT TechZen"><i class="fas fa-rss"></i></a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" data-reveal>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="c-name">Your Name</label>
+              <input type="text" id="c-name" name="name" placeholder="e.g. Rahim Ahmed" required />
+            </div>
+            <div class="form-group">
+              <label for="c-email">Email Address</label>
+              <input type="email" id="c-email" name="email" placeholder="you@example.com" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="c-phone">Phone (optional)</label>
+              <input type="tel" id="c-phone" name="phone" placeholder="+880 1XXX-XXXXXX" />
+            </div>
+            <div class="form-group">
+              <label for="c-budget">Budget</label>
+              <select id="c-budget" name="budget">
+                <option value="">Select budget...</option>
+                <option>Under $200</option>
+                <option>$200 – $500</option>
+                <option>$500 – $1000</option>
+                <option>$1000+</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="c-service">Service Needed</label>
+            <select id="c-service" name="service">
+              <option value="">Select a service...</option>
+              <option>eCommerce Website</option>
+              <option>Business Website</option>
+              <option>Portfolio Website</option>
+              <option>Listing / Directory Website</option>
+              <option>Landing Page</option>
+              <option>Digital Marketing</option>
+              <option>Theme Customization</option>
+              <option>Plugin Setup / Development</option>
+              <option>WordPress Maintenance</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="c-message">Tell Me About Your Project</label>
+            <textarea id="c-message" name="message" rows="5" placeholder="Describe your project, goals, timeline, any references..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <p class="form-note" id="form-note"></p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="logo" style="margin-bottom:14px; display:inline-flex;">
+            <div class="logo-img-wrap">
+              <svg width="32" height="32" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="19,2 31,9 31,23 19,30 7,23 7,9" fill="none" stroke="#7C3AED" stroke-width="2"/>
+                <polygon points="19,8 26,12 26,20 19,24 12,20 12,12" fill="none" stroke="#7C3AED" stroke-width="1.5"/>
+                <circle cx="19" cy="16" r="3" fill="#7C3AED"/>
+              </svg>
+            </div>
+            <div class="logo-text">BD<span>Tech</span><em>Zen</em></div>
+          </a>
+          <p>WordPress Developer &amp; Digital Marketer based in Dhaka, Bangladesh. Turning ideas into powerful web experiences.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Info</h4>
+          <ul>
+            <li><i class="fas fa-phone"></i> <a href="tel:+8801623604635">+880 1623-604635</a></li>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:khalil5172@gmail.com">khalil5172@gmail.com</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> 38/1, Baunia, Turag, Dhaka</li>
+            <li><i class="fas fa-rss"></i> <a href="https://bdttechzen.com" target="_blank" rel="noopener noreferrer">bdttechzen.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 <strong>Krrahman</strong> | <a href="https://bdttechzen.com" target="_blank" rel="noopener noreferrer" class="footer-blog-link">bdttechzen.com</a>. All rights reserved.</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/khalil5172" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.facebook.com/khalil5172" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/khalil5172" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter / X"><i class="fab fa-twitter"></i></a>
+          <a href="https://bdttechzen.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Blog"><i class="fas fa-rss"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#home" class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
